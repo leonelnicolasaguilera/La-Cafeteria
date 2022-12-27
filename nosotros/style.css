@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@1,900&family=Oswald:wght@700&family=Roboto:ital,wght@0,700;1,500&display=swap');
+/*-------HEADER-------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color:red;
+}
+
+header nav ul {
+    list-style: none
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: red;
+
+}
+
+header {
+    background-color: white;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+}
+
+/*-------MAIN-------*/
+.hero h2 {
+    font-size: 50px;
+    border: 2px;
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h3 {
+    text-align: center;
+    background-size: cover;
+    background-color: black;
+    color:white;
+
+}
+
+.hero img {
+
+width:100%;
+height:600px;
+
+
+
+
+}
+
+.flex-container {
+display: flex;
+width: 100%;
+justify-content: center;
+
+}
+
+
+/*-------FOOTER------*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: white;
+
+    
+    
+
+}
+
+footer h2 {
+
+    color: white;
+}
+
+.iconos img {
+    width: 25px;
+    height: 25px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (max-width:600px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+/*-------------------------MEDIAQUERY------------------------------*/
+

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@1,900&family=Oswald:wght@700&family=Roboto:ital,wght@0,700;1,500&display=swap');
+/*-------HEADER-------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+
+}
+
+
+h2 {
+    color:white;
+}
+
+header nav ul {
+    list-style: none
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: red;
+
+}
+
+header {
+    background-color: white;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+header nav ul li {
+
+display:inline-block;
+margin: 10px 15px 10px 15px;
+    
+}
+
+.contenedor {
+    width:100%;
+    height: 35px;
+    display:flex;
+    justify-content:flex-start;
+    font-size: large;
+
+}
+
+@media screen and (max-width:400px){
+    header{
+        flex-direction: column;
+        height:100%;
+        width:400px;
+        
+
+    }
+
+    .hero{
+        width:100%;
+    }
+
+
+
+}
+
+/*-------MAIN-------*/
+
+
+.hero{
+
+    text-align:center;
+    color: white;
+    background-image: url(./img/granosdecafe.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.hero h2 {
+    font-size: 60px;
+    border: 2px;
+    display:inline-block;
+    padding: 20px;
+    
+}
+
+
+
+.productos h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.productos div {
+
+    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    display: inline-block;
+
+
+}
+
+.productos div h3 {
+
+color: white;
+margin-bottom: 30px;
+background-color: red;
+
+
+}
+.productos div img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+.productos div a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+.grid-galeria{
+    width:100%;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    gap:15px;
+
+}
+
+.grid-galeria div img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item{
+   box-shadow: 26px 22px 24px -13px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 26px 22px 24px -13px rgba(0,0,0,0.75);
+   -moz-box-shadow: 26px 22px 24px -13px rgba(0,0,0,0.75);
+
+
+
+}
+
+.img-2{
+    grid-row:span 2;
+}
+
+.grid-item{
+    position: relative;
+}
+
+.grid-item h3{
+    position: absolute;
+    bottom: 0;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.628);
+    width:100%;
+}
+
+
+
+
+
+
+/*--------------------FOOTER--------------------------*/
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    color: white;
+    margin-top:50px
+
+    
+    
+}
+
+footer h2 {
+
+    color: white;
+}
+
+.iconos img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

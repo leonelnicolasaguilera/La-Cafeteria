@@ -19,7 +19,7 @@ header nav ul {
     list-style: none
 }
 
-header h1 {
+.navbar-brand{
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;

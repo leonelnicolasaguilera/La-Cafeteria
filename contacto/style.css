@@ -19,6 +19,9 @@ header nav ul {
     list-style: none
 }
 
+header nav{
+    background-color:red;
+}
 .navbar-brand{
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
@@ -42,6 +45,16 @@ header nav ul li {
 display:inline-block;
 margin: 10px 15px 10px 15px;
     
+}
+
+.boton{
+    border-color: black;
+
+}
+
+.boton:hover{
+    background-color: black;
+    color:white;
 }
 
 

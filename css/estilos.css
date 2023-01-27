@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/*VARIABLES*/
+/*LISTAS*/
+/*MIXINS*/
+/*-----------------------HEADER---------------------*/
+header {
+  background-color: white; }
+  header h1 {
+    color: red; }
+  header nav ul {
+    list-style: none; }
+    header nav ul li {
+      display: inline-block;
+      margin: 10px 15px 10px 15px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: black; }
+
+.boton {
+  border-color: black; }
+
+.boton:hover {
+  background-color: black;
+  color: white; }
+
+.contenedor {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: large; }
+
+/*---------INDEX---------*/
+/*HERO*/
+.hero {
+  text-align: center;
+  color: white;
+  background-image: url(img/granosdecafe.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  .hero h2 {
+    font-size: 60px;
+    border: 2px;
+    display: inline-block;
+    padding: 20px; }
+
+/*MAIN*/
+.productos h2 {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.productos div {
+  border: 1px solid gray;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 30px;
+  display: inline-block; }
+
+.productos h3 {
+  color: white;
+  margin-bottom: 30px;
+  background-color: red; }
+
+.productos img {
+  width: 100%;
+  height: 300px; }
+
+.productos a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold; }
+
+.grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  .grid-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.grid-item {
+  box-shadow: 26px 22px 24px -13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 26px 22px 24px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 26px 22px 24px -13px rgba(0, 0, 0, 0.75);
+  position: relative; }
+  .grid-item h3 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.628);
+    width: 100%; }
+
+.img-2 {
+  grid-row: span 2; }
+
+/*--------------NOSOTROS---------------*/
+/*MAIN*/
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+
+.hero-nosotros h2 {
+  font-size: 50px;
+  border: 2px;
+  display: inline-block;
+  padding: 20px;
+  text-align: center; }
+
+.hero-nosotros h3 {
+  text-align: center;
+  background-size: cover;
+  background-color: black;
+  color: white; }
+
+.hero-nosotros img {
+  width: 100%; }
+
+/*----------------CONTACTO------------------*/
+/*MAIN*/
+.hero {
+  text-align: center;
+  background-color: lightblue;
+  color: white;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0; }
+  .hero h2 {
+    font-size: 60px;
+    border: 2px;
+    display: inline-block;
+    padding: 20px;
+    color: white; }
+  .hero h3 {
+    font-size: 70px;
+    color: black; }
+
+/*------------------CARGÁTUCV------------------*/
+/*MAIN*/
+.hero {
+  background-color: black;
+  color: white; }
+  .hero img {
+    width: 100%;
+    height: 100%; }
+  .hero .form a {
+    text-decoration: none;
+    color: blue; }
+
+/*-------------------FOOTER---------------------*/
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  color: white;
+  margin-top: 50px; }
+  footer h2 {
+    color: white; }
+
+.iconos img {
+  width: 40px;
+  height: 40px; }
+
+/*-------------INDEX---------------*/
+@media screen and (max-width: 700px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column; } }

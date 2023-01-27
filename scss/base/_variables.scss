@@ -1,0 +1,33 @@
+/*VARIABLES*/
+
+
+$color-principal:red;
+$color-secundario:black;
+$color-terciario: white;
+
+
+/*LISTAS*/
+
+$colores:
+black,
+red,
+white,
+rgb(139, 139, 233);
+
+$font-size:
+15px,
+20px,
+30px,
+40px;
+
+/*MIXINS*/
+@mixin flex($flex, $justify, $align, $direction, $wrap){
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+

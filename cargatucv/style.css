@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@1,900&family=Oswald:wght@700&family=Roboto:ital,wght@0,700;1,500&display=swap');
+/*-------HEADER-------*/
 
-/*------HEADER-----*/
 * {
-
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
 
 }
 
 
-h1 {
-    color:rgb(255, 255, 255);
+h2 {
+    color:white;
+}
+
+header nav ul {
+    list-style: none
 }
 
 .navbar-brand{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     color: red;
@@ -24,79 +31,72 @@ h1 {
 
 header {
     background-color: white;
+    
+ }
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+header nav ul li {
+
+display:inline-block;
+margin: 10px 15px 10px 15px;
+    
 }
 
 header nav{
     background-color: red;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-header nav ul li {
-
-    display:inline-block;
-    margin: 10px 15px 10px 15px;
-        
-    }
-
-header nav ul {
-    list-style: none;
-}
-
 .boton{
-    border-color: black;
+    border-color:black;
 }
 
 .boton:hover{
-    background-color: black;
+    background-color:black;
     color:white;
 }
 
-/*-------MAIN-------*/
+.contenedor {
+    width:100%;
+    height: 35px;
+    display:flex;
+    justify-content:flex-start;
+    font-size: large;
+
+}
+
+
+
+
+/*---------------MAIN----------------*/
 
 .hero {
-
     background-color: black;
-    color: white;
-}
+    color: white; }
+    .hero img {
+      width: 100%;
+      height: 100%; }
+    .hero .form a {
+      text-decoration: none;
+      color: blue; }
+  
 
-.hero img {
-     
-width: 100%;
-height: 100%;
 
-}
+/*-------------FOOTER--------------*/
 
-.form a{
-    text-decoration: none;
-    color:blue;
-}
-
-/*------FOOTER-----*/
 
 footer {
     width: 100%;
     height: 100%;
     background-color: red;
     color: white;
-    
-    
-
-}
-
-footer h2 {
-
-    color: white;
-}
-
-.iconos img {
-    width: 50px;
-    height: 50px;
-    color:white;
-}
-
-
-
+    margin-top: 50px; }
+    footer h2 {
+      color: white; }
+  
+  .iconos img {
+    width: 40px;
+    height: 40px; }

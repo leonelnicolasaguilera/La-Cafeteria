@@ -1,91 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@1,900&family=Oswald:wght@700&family=Roboto:ital,wght@0,700;1,500&display=swap');
+
 /*-------HEADER-------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
-    color: red;
+  color: red;
+
 }
 
+
 h2 {
-    color:black;
+  color:white;
 }
 
 header nav ul {
-    list-style: none
+  list-style: none
 }
 
-header nav{
-    background-color:red;
-}
 .navbar-brand{
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 700;
-    color: red;
+  font-size: 4rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  color: red;
 
 }
 
 header {
-    background-color: white;
+  background-color: white;
+  
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 
 }
-
 header nav ul li {
 
 display:inline-block;
 margin: 10px 15px 10px 15px;
-    
+  
+}
+
+header nav{
+  background-color: red;
 }
 
 .boton{
-    border-color: black;
-
+  border-color:black;
 }
 
 .boton:hover{
-    background-color: black;
-    color:white;
+  background-color:black;
+  color:white;
 }
 
-
-/*-------MAIN-------*/
-.hero{
-
-    text-align:center;
-    background-color: lightblue;
-    color: white;
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-
-
-}
-
-.hero h2 {
-    font-size: 60px;
-    border: 2px;
-    display:inline-block;
-    padding: 20px;
-    color: white;
-}
-
-.hero h3 {
-
-font-size: 70px;
-color: black;
+.contenedor {
+  width:100%;
+  height: 35px;
+  display:flex;
+  justify-content:flex-start;
+  font-size: large;
 
 }
 
@@ -93,42 +73,46 @@ color: black;
 
 
 
-@media screen and (max-width:530px){
-    main {
-        width:600px;
-    
 
-    }
-}
+    /*--------------------MAIN-----------------*/
+
+    .hero {
+        text-align: center;
+        background-color: lightblue;
+        color: white;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        margin: 0; }
+        .hero h2 {
+          font-size: 60px;
+          border: 2px;
+          display: inline-block;
+          padding: 20px;
+          color: white; }
+        .hero h3 {
+          font-size: 70px;
+          color: black; }
 
 
 
-/*------FOOTER------*/
 
-footer {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    color: white;
-    
-    
 
-}
 
-footer h2 {
+    /*------------------FOOTER--------------*/
 
-    color: white;
-}
 
-.iconos img {
-    width: 50px;
-    height: 50px;
-}
-
-@media screen and (max-width:530px){
-    footer{
-        width:600px;
-
-    }
-}
-
+    footer {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        color: white;
+        margin-top: 50px; }
+        footer h2 {
+          color: white; }
+      
+      .iconos img {
+        width: 40px;
+        height: 40px; }

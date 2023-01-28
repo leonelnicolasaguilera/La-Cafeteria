@@ -8,7 +8,7 @@
 }
 
 h1 {
-    color: red;
+    color:red;
 
 }
 
@@ -211,5 +211,22 @@ footer h2 {
     height: 50px;
 }
 
+/*-------------------MEDIAQUERY-----------------*/
 
+@media screen and (max-width:620px){
+    .grid-galeria{
+        width:100%;
+        display:flex;
+        flex-direction:column;
 
+    }
+}
+
+@media screen and (max-width:320px){
+    footer{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
